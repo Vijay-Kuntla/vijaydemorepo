@@ -1,0 +1,41 @@
+{
+	"name": "ds_testdatasetgit",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_testdatasetgit",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "MainEmployee.csv",
+				"folderPath": "inputsourcefileswaf",
+				"container": "inputdatasetcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "empid",
+				"type": "String"
+			},
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "country",
+				"type": "String"
+			},
+			{
+				"name": "department",
+				"type": "String"
+			}
+		]
+	}
+}
