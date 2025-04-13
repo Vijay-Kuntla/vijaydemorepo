@@ -1,0 +1,9 @@
+{
+	"name": "adfgitrepo1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "352ec669-c220-4069-b8cd-b651b4dffa1c",
+		"tenantId": "fe5ce25f-74af-4715-98c7-fe82c49fb9ee"
+	}
+}
