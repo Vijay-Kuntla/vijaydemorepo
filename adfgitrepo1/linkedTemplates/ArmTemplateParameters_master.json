@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "adfgitrepo1"
 		},
+		"ls_testdatasetgit_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
